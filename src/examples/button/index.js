@@ -16,8 +16,8 @@ const Name = styled('span', {
 
 export default () => (
   <React.Fragment>
+    <Name>Buttons</Name>
     <Centered>
-      <Name>Buttons</Name>
       <Buttons />
       <Buttons1 />
       <ButtonStates />

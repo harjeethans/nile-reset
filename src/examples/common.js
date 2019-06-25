@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { styled } from 'baseui';
 
 
@@ -14,3 +12,7 @@ export const Centered = styled('div', {
 export const Name = styled('span', {
    marginRight: '10px'
  });
+
+export const Container = styled('div', {
+  width: '400px'
+});

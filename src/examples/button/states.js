@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {Button, KIND} from 'baseui/button';
+import {Button} from 'baseui/button';
 import {Block} from 'baseui/block';
 
 export default () => (

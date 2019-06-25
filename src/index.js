@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import { Client as Styletron } from 'styletron-engine-atomic';
 import { Provider as StyletronProvider, DebugEngine } from 'styletron-react';
-import { LightTheme, BaseProvider, styled, DarkTheme, ThemeProvider, createTheme, lightThemePrimitives } from 'baseui';
+import {  ThemeProvider, createTheme, lightThemePrimitives } from 'baseui';
 
 import './index.css';
 import App from './App';
@@ -14,12 +14,12 @@ const debug =
 
 const engine = new Styletron();
 
-const Centered = styled('div', {
-  display: 'flex',
-  justifyContent: 'center',
-  alignItems: 'center',
-  height: '100%',
-});
+// const Centered = styled('div', {
+//   display: 'flex',
+//   justifyContent: 'center',
+//   alignItems: 'center',
+//   height: '100%',
+// });
 
 const nileTheme = createTheme(
   {
